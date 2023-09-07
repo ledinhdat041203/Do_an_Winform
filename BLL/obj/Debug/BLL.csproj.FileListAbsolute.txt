@@ -1,0 +1,11 @@
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\BLL\bin\Debug\BLL.dll
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\BLL\bin\Debug\BLL.pdb
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\BLL\bin\Debug\DAL.dll
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\BLL\bin\Debug\DTO.dll
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\BLL\bin\Debug\DAL.pdb
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\BLL\bin\Debug\DTO.pdb
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\BLL\obj\Debug\BLL.dll
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\BLL\obj\Debug\BLL.pdb

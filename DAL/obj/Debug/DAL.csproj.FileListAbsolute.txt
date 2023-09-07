@@ -1,0 +1,9 @@
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\DAL\bin\Debug\DAL.dll
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\DAL\bin\Debug\DAL.pdb
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\DAL\bin\Debug\DTO.dll
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\DAL\bin\Debug\DTO.pdb
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\DAL\obj\Debug\DAL.dll
+D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\DAL\obj\Debug\DAL.pdb

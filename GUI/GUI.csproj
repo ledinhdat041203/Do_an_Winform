@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C34E268-E5D6-4C1C-A7DE-C1BC4C05B301}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHang.Designer.cs">
+      <DependentUpon>frmHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLHH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLHH.Designer.cs">
+      <DependentUpon>frmQLHH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChiTietNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChiTietNhanVien.Designer.cs">
+      <DependentUpon>frmChiTietNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNV.Designer.cs">
+      <DependentUpon>QLNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLi.Designer.cs">
+      <DependentUpon>QuanLi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmHang.resx">
+      <DependentUpon>frmHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLHH.resx">
+      <DependentUpon>frmQLHH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChiTietNhanVien.resx">
+      <DependentUpon>frmChiTietNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QLNV.resx">
+      <DependentUpon>QLNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLi.resx">
+      <DependentUpon>QuanLi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{86b18a8d-63d9-47e1-8fc8-4f92cd2eb560}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{e392d2cd-f569-4af2-98cf-f53576d5ed28}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_496632203_ebd1fmChidWFuaYcoIKgRAAQqo00ReUC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huy-phan-HqLcI0Dyl4o-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-462235.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1155433058-1024x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_4073231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1219572662-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1149797704-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock_6710448.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide_2767146.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye_3926043.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letter-f_10077736.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram_174855.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiktok_5968812.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
