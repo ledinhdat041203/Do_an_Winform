@@ -1,0 +1,6 @@
+D:\SPKT\HK1_n3\WinForm\QuanLiCuaHangNoiThat\DTO\bin\Debug\DTO.dll
+D:\SPKT\HK1_n3\WinForm\QuanLiCuaHangNoiThat\DTO\bin\Debug\DTO.pdb
+D:\SPKT\HK1_n3\WinForm\QuanLiCuaHangNoiThat\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\SPKT\HK1_n3\WinForm\QuanLiCuaHangNoiThat\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\SPKT\HK1_n3\WinForm\QuanLiCuaHangNoiThat\DTO\obj\Debug\DTO.dll
+D:\SPKT\HK1_n3\WinForm\QuanLiCuaHangNoiThat\DTO\obj\Debug\DTO.pdb
