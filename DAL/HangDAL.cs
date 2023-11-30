@@ -38,7 +38,7 @@ namespace DAL
             }
           return false;
         }
-        public bool XoaHang(string mahang)
+        public bool XoaHang(int mahang)
         {
             SqlParameter[] param =
             {
@@ -55,21 +55,24 @@ namespace DAL
 
         public bool SuaHang(Hang hang)
         {
-            //SqlParameter[] param =
-            //{
-            //    new SqlParameter("@MaHang", hang.MaHang),
-            //    new SqlParameter("@TenHang", hang.TenHang),
-            //    new SqlParameter("@Gia", hang.Gia),
-            //    new SqlParameter("@BaoHanh", hang.ThoiGianBaoHanh),
-            //    new SqlParameter("@XuatXu", hang.XuatXu),
-            //    new SqlParameter("@SoLuong", hang.SoLuongCon)
-            //};
+            SqlParameter[] param =
+            {
+                new SqlParameter("@MaHang", hang.MaHang),
+                new SqlParameter("@TenHang", hang.TenHang),
+                new SqlParameter("@GiaNhap", hang.GiaNhap),
+                new SqlParameter("@GiaBan", hang.DonGia),
+                new SqlParameter("@BaoHanh", hang.BaoHanh),
+                new SqlParameter("@MaNCC", hang.MaNCC),
+                new SqlParameter("@MaLoai", hang.MaLoai),
+                new SqlParameter("@Anh", hang.Anh),
+                new SqlParameter("@XuatXu", hang.XuatXu),
+            };
 
-            //int result = DataBase.Instance.ThucThi("proc_suaHang", param);
-            //if (result > 0)
-            //{
-            //    return true;
-            //}
+            int result = DataBase.Instance.ThucThi("proc_suahang", param);
+            if (result > 0)
+            {
+                return true;
+            }
             return false;
         }
 

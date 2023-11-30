@@ -71,7 +71,7 @@ namespace GUI
             else
             {
                 btnShowPass.BackgroundImage = global::GUI.Properties.Resources.eye_3926043;
-                txtMatKhau.PasswordChar = '\0';
+                txtMatKhau.PasswordChar = '\0';//k che
             }
         }
 

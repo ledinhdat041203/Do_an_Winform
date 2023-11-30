@@ -93,7 +93,7 @@ namespace BLL
             return hang;
         }
 
-        public bool XoaHang(string maHang)
+        public bool XoaHang(int maHang)
         {
             return HangDAL.Instance.XoaHang(maHang);
         }

@@ -44,5 +44,10 @@ namespace GUI
                 cbAnh.Image = Utils.Instance.converByteToImage(hang.Anh);
             }
         }
+
+        private void lbNCC_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

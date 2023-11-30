@@ -61,5 +61,16 @@ namespace GUI
             fBanHang.ShowDialog();
             this.Close();
         }
+
+        private void btnIn_Click(object sender, EventArgs e)
+        {
+            rpDonBan rpDonBan = new rpDonBan();
+            rpDonBan.SetDataSource(DonBanBLL.Instance.findDetailDonBan(this.donBan.MaDon));
+
+            frm_cpDonBan fcpDonBan = new frm_cpDonBan();
+            fcpDonBan.rpvDonBan.ReportSource = rpDonBan;
+
+            fcpDonBan.ShowDialog();
+        }
     }
 }

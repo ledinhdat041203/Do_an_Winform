@@ -160,7 +160,7 @@
             this.txtMatKhau.SelectedText = "";
             this.txtMatKhau.Size = new System.Drawing.Size(796, 26);
             this.txtMatKhau.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
-            this.txtMatKhau.TabIndex = 3;
+            this.txtMatKhau.TabIndex = 8;
             // 
             // txtTenDangNhap
             // 
@@ -182,7 +182,7 @@
             this.txtTenDangNhap.SelectedText = "";
             this.txtTenDangNhap.Size = new System.Drawing.Size(796, 26);
             this.txtTenDangNhap.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
-            this.txtTenDangNhap.TabIndex = 2;
+            this.txtTenDangNhap.TabIndex = 7;
             // 
             // guna2Panel3
             // 
@@ -228,7 +228,7 @@
             this.cbChucVu.Location = new System.Drawing.Point(671, 76);
             this.cbChucVu.Name = "cbChucVu";
             this.cbChucVu.Size = new System.Drawing.Size(173, 36);
-            this.cbChucVu.TabIndex = 22;
+            this.cbChucVu.TabIndex = 5;
             // 
             // cbGioiTinh
             // 
@@ -249,7 +249,7 @@
             this.cbGioiTinh.Location = new System.Drawing.Point(671, 126);
             this.cbGioiTinh.Name = "cbGioiTinh";
             this.cbGioiTinh.Size = new System.Drawing.Size(173, 36);
-            this.cbGioiTinh.TabIndex = 21;
+            this.cbGioiTinh.TabIndex = 6;
             // 
             // label7
             // 
@@ -294,7 +294,7 @@
             this.dtNgaySinh.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtNgaySinh.Name = "dtNgaySinh";
             this.dtNgaySinh.Size = new System.Drawing.Size(173, 36);
-            this.dtNgaySinh.TabIndex = 17;
+            this.dtNgaySinh.TabIndex = 4;
             this.dtNgaySinh.Value = new System.DateTime(2023, 11, 26, 0, 2, 1, 434);
             // 
             // btnChonAnh
@@ -462,9 +462,9 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(336, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(162, 28);
+            this.label1.Size = new System.Drawing.Size(203, 28);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Tạo khách hàng";
+            this.label1.Text = "Thông tin nhân viên";
             // 
             // btnCancle
             // 

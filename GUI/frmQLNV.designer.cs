@@ -140,9 +140,10 @@
             // flpQuanLi
             // 
             this.flpQuanLi.AutoScroll = true;
+            this.flpQuanLi.BackColor = System.Drawing.Color.WhiteSmoke;
             this.flpQuanLi.Location = new System.Drawing.Point(33, 8);
             this.flpQuanLi.Name = "flpQuanLi";
-            this.flpQuanLi.Size = new System.Drawing.Size(200, 386);
+            this.flpQuanLi.Size = new System.Drawing.Size(192, 433);
             this.flpQuanLi.TabIndex = 0;
             // 
             // panel2

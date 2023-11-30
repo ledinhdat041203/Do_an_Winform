@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    //11/29
+   
     public class DonNhap
     {
         private int _maDon;
