@@ -21,3 +21,6 @@ D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\GUI\obj\Debug\GUI.frmQLNV.resources
 D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\GUI\obj\Debug\GUI.frmChiTietNhanVien.resources
 D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\GUI\obj\Debug\GUI.frmQLHH.resources
 D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\GUI\obj\Debug\GUI.frmHang.resources
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\GUI\obj\Debug\GUI.exe
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\GUI\obj\Debug\GUI.pdb

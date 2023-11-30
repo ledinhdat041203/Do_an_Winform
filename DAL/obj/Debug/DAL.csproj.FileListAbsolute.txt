@@ -7,3 +7,12 @@ D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cac
 D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\DAL\obj\Debug\DAL.dll
 D:\SPKT\HK1_n3\WinForm\MoHinh3Lop\DAL\obj\Debug\DAL.pdb
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\bin\Debug\DAL.dll
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\bin\Debug\DAL.pdb
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\bin\Debug\DTO.dll
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\bin\Debug\DTO.pdb
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\obj\Debug\DAL.csproj.CopyComplete
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\obj\Debug\DAL.dll
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\obj\Debug\DAL.pdb
