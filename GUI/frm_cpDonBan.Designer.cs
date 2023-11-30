@@ -29,18 +29,16 @@
         private void InitializeComponent()
         {
             this.rpvDonBan = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
-            this.rpDonBan1 = new GUI.rpDonBan();
             this.SuspendLayout();
             // 
             // rpvDonBan
             // 
-            this.rpvDonBan.ActiveViewIndex = 0;
+            this.rpvDonBan.ActiveViewIndex = -1;
             this.rpvDonBan.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.rpvDonBan.Cursor = System.Windows.Forms.Cursors.Default;
             this.rpvDonBan.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rpvDonBan.Location = new System.Drawing.Point(0, 0);
             this.rpvDonBan.Name = "rpvDonBan";
-            this.rpvDonBan.ReportSource = this.rpDonBan1;
             this.rpvDonBan.Size = new System.Drawing.Size(1282, 952);
             this.rpvDonBan.TabIndex = 0;
             // 

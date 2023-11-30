@@ -41,7 +41,7 @@
             this.btnSua = new Guna.UI2.WinForms.Guna2Button();
             this.btnInfo = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.pnAll = new Guna.UI2.WinForms.Guna2ShadowPanel();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAnh)).BeginInit();
@@ -112,7 +112,7 @@
             this.btnXoa.ForeColor = System.Drawing.Color.White;
             this.btnXoa.Image = global::GUI.Properties.Resources.delete;
             this.btnXoa.ImageSize = new System.Drawing.Size(15, 15);
-            this.btnXoa.Location = new System.Drawing.Point(100, 0);
+            this.btnXoa.Location = new System.Drawing.Point(97, 0);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(25, 25);
             this.btnXoa.TabIndex = 20;
@@ -164,7 +164,7 @@
             this.btnSua.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnSua.ForeColor = System.Drawing.Color.White;
             this.btnSua.Image = global::GUI.Properties.Resources.icons8_update_48;
-            this.btnSua.Location = new System.Drawing.Point(125, 0);
+            this.btnSua.Location = new System.Drawing.Point(122, 0);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(25, 25);
             this.btnSua.TabIndex = 11;
@@ -181,7 +181,7 @@
             this.btnInfo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnInfo.ForeColor = System.Drawing.Color.White;
             this.btnInfo.Image = ((System.Drawing.Image)(resources.GetObject("btnInfo.Image")));
-            this.btnInfo.Location = new System.Drawing.Point(150, 0);
+            this.btnInfo.Location = new System.Drawing.Point(147, 0);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(25, 25);
             this.btnInfo.TabIndex = 10;
@@ -193,23 +193,23 @@
             this.panel1.Controls.Add(this.lbMaNV);
             this.panel1.Controls.Add(this.btnSua);
             this.panel1.Controls.Add(this.btnInfo);
-            this.panel1.Location = new System.Drawing.Point(0, 179);
+            this.panel1.Location = new System.Drawing.Point(3, 179);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(175, 25);
+            this.panel1.Size = new System.Drawing.Size(172, 25);
             this.panel1.TabIndex = 21;
             // 
-            // guna2ShadowPanel1
+            // pnAll
             // 
-            this.guna2ShadowPanel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.guna2ShadowPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2ShadowPanel1.FillColor = System.Drawing.SystemColors.Window;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
-            this.guna2ShadowPanel1.Radius = 5;
-            this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Gray;
-            this.guna2ShadowPanel1.ShadowStyle = Guna.UI2.WinForms.Guna2ShadowPanel.ShadowMode.Dropped;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(177, 206);
-            this.guna2ShadowPanel1.TabIndex = 22;
+            this.pnAll.BackColor = System.Drawing.Color.Transparent;
+            this.pnAll.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnAll.FillColor = System.Drawing.SystemColors.Window;
+            this.pnAll.Location = new System.Drawing.Point(0, 0);
+            this.pnAll.Name = "pnAll";
+            this.pnAll.Radius = 5;
+            this.pnAll.ShadowColor = System.Drawing.Color.Gray;
+            this.pnAll.ShadowStyle = Guna.UI2.WinForms.Guna2ShadowPanel.ShadowMode.Dropped;
+            this.pnAll.Size = new System.Drawing.Size(177, 206);
+            this.pnAll.TabIndex = 22;
             // 
             // uc_NhanVien
             // 
@@ -224,7 +224,7 @@
             this.Controls.Add(this.lbDiaChi);
             this.Controls.Add(this.lbTen);
             this.Controls.Add(this.pbAnh);
-            this.Controls.Add(this.guna2ShadowPanel1);
+            this.Controls.Add(this.pnAll);
             this.Name = "uc_NhanVien";
             this.Size = new System.Drawing.Size(177, 206);
             this.Load += new System.EventHandler(this.uc_NhanVien_Load);
@@ -251,6 +251,6 @@
         private System.Windows.Forms.Label lbMaNV;
         private Guna.UI2.WinForms.Guna2Button btnXoa;
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
+        private Guna.UI2.WinForms.Guna2ShadowPanel pnAll;
     }
 }

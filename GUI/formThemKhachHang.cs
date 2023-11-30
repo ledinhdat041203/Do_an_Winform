@@ -74,6 +74,7 @@ namespace GUI
             }
             else if (isUpdate)
             {
+                lbTieuDe.Text = "Thông tin khách hàng";
                 txtDiaChi.Text = khachHang.DiaChi;
                 txtSDT.Text = khachHang.SDT;
 

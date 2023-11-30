@@ -108,7 +108,7 @@
             // 
             // btnKhachhang
             // 
-            this.btnKhachhang.BackgroundImage = global::GUI.Properties.Resources.icons8_pencil_50;
+            this.btnKhachhang.BackgroundImage = global::GUI.Properties.Resources.icons8_edit_32new;
             this.btnKhachhang.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnKhachhang.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnKhachhang.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -237,11 +237,11 @@
             // lbThanhTien
             // 
             this.lbThanhTien.AutoSize = true;
-            this.lbThanhTien.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbThanhTien.ForeColor = System.Drawing.Color.OrangeRed;
+            this.lbThanhTien.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lbThanhTien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
             this.lbThanhTien.Location = new System.Drawing.Point(185, 112);
             this.lbThanhTien.Name = "lbThanhTien";
-            this.lbThanhTien.Size = new System.Drawing.Size(19, 23);
+            this.lbThanhTien.Size = new System.Drawing.Size(20, 23);
             this.lbThanhTien.TabIndex = 8;
             this.lbThanhTien.Text = "0";
             // 
@@ -259,24 +259,24 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
             this.label5.Location = new System.Drawing.Point(21, 112);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 23);
+            this.label5.Size = new System.Drawing.Size(100, 23);
             this.label5.TabIndex = 5;
             this.label5.Text = "Thành tiền";
             // 
             // lbVoucher
             // 
             this.lbVoucher.AutoSize = true;
-            this.lbVoucher.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbVoucher.ForeColor = System.Drawing.Color.OrangeRed;
+            this.lbVoucher.Font = new System.Drawing.Font("Segoe UI", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lbVoucher.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
             this.lbVoucher.Location = new System.Drawing.Point(21, 66);
             this.lbVoucher.Name = "lbVoucher";
-            this.lbVoucher.Size = new System.Drawing.Size(72, 23);
+            this.lbVoucher.Size = new System.Drawing.Size(75, 23);
             this.lbVoucher.TabIndex = 4;
-            this.lbVoucher.Text = "voucher";
+            this.lbVoucher.Text = "Voucher";
             // 
             // label3
             // 
@@ -308,7 +308,7 @@
             // 
             // guna2Button1
             // 
-            this.guna2Button1.BorderColor = System.Drawing.Color.Tomato;
+            this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
             this.guna2Button1.BorderRadius = 8;
             this.guna2Button1.BorderThickness = 1;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -317,7 +317,7 @@
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.Tomato;
+            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
             this.guna2Button1.Location = new System.Drawing.Point(24, 166);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(101, 48);
@@ -340,6 +340,7 @@
             this.flpChiTietDonBan.AutoScroll = true;
             this.flpChiTietDonBan.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.flpChiTietDonBan.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flpChiTietDonBan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
             this.flpChiTietDonBan.Location = new System.Drawing.Point(0, 53);
             this.flpChiTietDonBan.Name = "flpChiTietDonBan";
             this.flpChiTietDonBan.Size = new System.Drawing.Size(328, 276);
@@ -353,7 +354,7 @@
             this.guna2Panel7.CustomizableEdges.BottomLeft = false;
             this.guna2Panel7.CustomizableEdges.BottomRight = false;
             this.guna2Panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel7.FillColor = System.Drawing.Color.Tomato;
+            this.guna2Panel7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
             this.guna2Panel7.ForeColor = System.Drawing.Color.White;
             this.guna2Panel7.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel7.Name = "guna2Panel7";

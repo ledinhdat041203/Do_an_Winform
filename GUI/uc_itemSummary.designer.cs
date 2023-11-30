@@ -134,6 +134,7 @@
             // 
             // btnSub
             // 
+            this.btnSub.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnSub.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.btnSub.HoverState.ImageSize = new System.Drawing.Size(30, 30);
             this.btnSub.Image = global::GUI.Properties.Resources.downward_arrow;
@@ -150,6 +151,7 @@
             // 
             // btnAdd
             // 
+            this.btnAdd.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnAdd.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.btnAdd.HoverState.ImageRotate = 180F;
             this.btnAdd.HoverState.ImageSize = new System.Drawing.Size(30, 30);
@@ -169,7 +171,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.btnXoaCT);
             this.Controls.Add(this.btnSub);

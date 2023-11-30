@@ -43,6 +43,7 @@ namespace GUI
             lbMaNV.Text = $"#{nhanvien.MaNV}";
             if (nhanvien.ChucVu == "Quản lí")
             {
+                pnAll.BorderStyle = BorderStyle.FixedSingle;
                 btnXoa.Visible = false;
             }
 

@@ -43,7 +43,7 @@
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnLuu = new Guna.UI2.WinForms.Guna2Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbTieuDe = new System.Windows.Forms.Label();
             this.btnCancle = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
@@ -276,7 +276,7 @@
             this.guna2Panel2.BorderRadius = 5;
             this.guna2Panel2.BorderThickness = 1;
             this.guna2Panel2.Controls.Add(this.btnLuu);
-            this.guna2Panel2.Controls.Add(this.label1);
+            this.guna2Panel2.Controls.Add(this.lbTieuDe);
             this.guna2Panel2.Controls.Add(this.btnCancle);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
@@ -311,15 +311,15 @@
             this.btnLuu.TextOffset = new System.Drawing.Point(3, 0);
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
-            // label1
+            // lbTieuDe
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(336, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(185, 28);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Thêm Khách Hàng";
+            this.lbTieuDe.AutoSize = true;
+            this.lbTieuDe.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTieuDe.Location = new System.Drawing.Point(336, 9);
+            this.lbTieuDe.Name = "lbTieuDe";
+            this.lbTieuDe.Size = new System.Drawing.Size(185, 28);
+            this.lbTieuDe.TabIndex = 1;
+            this.lbTieuDe.Text = "Thêm Khách Hàng";
             // 
             // btnCancle
             // 
@@ -384,7 +384,7 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Button btnCancle;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbTieuDe;
         private Guna.UI2.WinForms.Guna2Button btnLuu;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2TextBox txtTenKH;

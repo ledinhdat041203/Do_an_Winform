@@ -40,7 +40,11 @@ namespace GUI
                 if (nv.ChucVu == "Quản lí")
                     flpQuanLi.Controls.Add(ucNhanVien);
                 else
+                {
+                    
                     flpNhanVien.Controls.Add(ucNhanVien);
+
+                }
             }
         }
 
