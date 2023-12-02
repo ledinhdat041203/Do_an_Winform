@@ -43,6 +43,7 @@ namespace GUI
             lbMaNV.Text = $"#{nhanvien.MaNV}";
             if (nhanvien.ChucVu == "Quản lí")
             {
+                pnAll.BorderStyle = BorderStyle.FixedSingle;
                 btnXoa.Visible = false;
             }
 
@@ -90,6 +91,11 @@ namespace GUI
                     MessageBox.Show("Xóa thất bại", "Thông Báo");
                 }
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

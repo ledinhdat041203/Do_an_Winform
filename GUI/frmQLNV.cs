@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Web.UI.WebControls;
 using System.Windows.Forms;
 
@@ -24,6 +25,13 @@ namespace GUI
 
         private void frmQLNV_Load(object sender, EventArgs e)
         {
+            //lấy thông tin nhân viên tạo đơn từ formQuanLi
+            frm_QuanLy frmQL = Application.OpenForms.OfType<frm_QuanLy>().FirstOrDefault();
+            NhanVien nhanVienDangNhap = frmQL.nhanVien;
+            if (nhanVienDangNhap.ChucVu != "Quản lí")
+            {
+                btnThemNV.Visible = false;
+            }    
             LayDuLieu();
            
         }
@@ -40,7 +48,11 @@ namespace GUI
                 if (nv.ChucVu == "Quản lí")
                     flpQuanLi.Controls.Add(ucNhanVien);
                 else
+                {
+                    
                     flpNhanVien.Controls.Add(ucNhanVien);
+
+                }
             }
         }
 
@@ -63,65 +75,6 @@ namespace GUI
             LayDuLieu();
         }
 
-
-
- 
-
-        
-        private void btnSua_Click(object sender, EventArgs e)
-        {
-            /*if (dgvNhanVien.SelectedCells.Count > 0)
-            {
-                NhanVien nv = NhanVienBLL.Instance.ChiTietNhanVien(dgvNhanVien);
-                frmThongTinNhanVien frmThongTin = new frmThongTinNhanVien(nv,isEdit: true);
-                this.Hide();
-                frmThongTin.ShowDialog();
-                this.Show();
-                LayDuLieu();
-            }
-            else
-                MessageBox.Show("Chưa chọn nhân viên", "Thông báo");*/
-        }
-
-        private void dgvNhanVien_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
-        {
-            /*if (dgvNhanVien.SelectedCells.Count > 0)
-            {
-                NhanVien nv = NhanVienBLL.Instance.ChiTietNhanVien(dgvNhanVien);
-                frmThongTinNhanVien frmThongTinNhanVien = new frmThongTinNhanVien(nv);
-                this.Hide();
-                frmThongTinNhanVien.ShowDialog();
-                this.Show();
-                
-            }
-            else
-                MessageBox.Show("Chưa chọn nhân viên", "Thông báo");*/
-        }
-
-        private void btnXoa_Click(object sender, EventArgs e)
-        {
-            /*if (MessageBox.Show("Xóa thông tin nhân viên này?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
-            {
-                DataGridViewRow row = dgvNhanVien.SelectedCells[0].OwningRow;
-                String maNV = row.Cells["MaNV"].Value.ToString();
-                if (NhanVienBLL.Instance.XoaNhanVien(maNV))
-                {
-                    MessageBox.Show("Xóa Thành công", "Thông Báo");
-                    LayDuLieu();
-                }
-                else
-                {
-                    MessageBox.Show("Xóa thất bại", "Thông Báo");
-                }
-            }*/
-
-        }
-
-        private void dgvNhanVien_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -135,40 +88,6 @@ namespace GUI
             this.Show();
             LayDuLieu();
         }
-
-        private void guna2Button3_Click(object sender, EventArgs e)
-        {
-            /*if (dgvNhanVien.SelectedCells.Count > 0)
-            {
-                NhanVien nv = NhanVienBLL.Instance.ChiTietNhanVien(dgvNhanVien);
-                frmThongTinNhanVien frmThongTin = new frmThongTinNhanVien(nv, isEdit: true);
-                this.Hide();
-                frmThongTin.ShowDialog();
-                this.Show();
-                LayDuLieu();
-            }
-            else
-                MessageBox.Show("Chưa chọn nhân viên", "Thông báo");*/
-        }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-            /*if (MessageBox.Show("Xóa thông tin nhân viên này?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
-            {
-                DataGridViewRow row = dgvNhanVien.SelectedCells[0].OwningRow;
-                String maNV = row.Cells["MaNV"].Value.ToString();
-                if (NhanVienBLL.Instance.XoaNhanVien(maNV))
-                {
-                    MessageBox.Show("Xóa Thành công", "Thông Báo");
-                    LayDuLieu();
-                }
-                else
-                {
-                    MessageBox.Show("Xóa thất bại", "Thông Báo");
-                }
-            }*/
-        }
-        //private int previousOffsetY = 0;
 
         private void panel4_Paint(object sender, PaintEventArgs e)
         {
@@ -196,5 +115,7 @@ namespace GUI
                 flpNhanVien.Controls.Add(ucNhanVien);
             }
         }
+
+
     }
 }

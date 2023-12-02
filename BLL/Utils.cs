@@ -56,5 +56,42 @@ namespace BLL
                 return ms.ToArray();
             }
         }
+
+        public bool checkPhone(string phoneNumber)
+        {
+            if (phoneNumber.Length != 10)
+            {
+                return false;
+            }
+
+            foreach (char digit in phoneNumber)
+            {
+                if (!char.IsDigit(digit))
+                {
+                    return false;
+                }
+            }
+
+
+            return true;
+        }
+
+        public bool checkName(string fullName)
+        {
+            if (string.IsNullOrWhiteSpace(fullName))
+            {
+                return false;
+            }
+
+            foreach (char character in fullName)
+            {
+                if (!char.IsLetter(character) && !char.IsWhiteSpace(character))
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
     }
 }

@@ -59,13 +59,13 @@ namespace GUI
         private void btnInforCustomer_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
-            panelRank.Visible = false;
+            panelRankk.Visible = false;
         }
 
         private void btnRank_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
-            panelRank.Visible = true;
+            panelRankk.Visible = true;
         }
 
         private void formKhachHang_Load(object sender, EventArgs e)
@@ -180,6 +180,11 @@ namespace GUI
             List<DonBan> list = DonBanBLL.Instance.FindByMaKH(donban.MaKH);
             dgvKhachHang.DataSource = list;
             this.Show();
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

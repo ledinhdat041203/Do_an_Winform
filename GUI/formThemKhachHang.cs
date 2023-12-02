@@ -61,7 +61,7 @@ namespace GUI
                 }
                 else
                 {
-                    MessageBox.Show("Sửa thông tin thành công", "Thông báo");
+                    MessageBox.Show("Sửa thông tin Thất bại !!!", "Thông báo");
                 }
             }
         }
@@ -74,6 +74,7 @@ namespace GUI
             }
             else if (isUpdate)
             {
+                lbTieuDe.Text = "Thông tin khách hàng";
                 txtDiaChi.Text = khachHang.DiaChi;
                 txtSDT.Text = khachHang.SDT;
 

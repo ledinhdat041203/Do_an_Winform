@@ -61,7 +61,6 @@
             this.lbDonGia.Size = new System.Drawing.Size(35, 23);
             this.lbDonGia.TabIndex = 2;
             this.lbDonGia.Text = "Giá";
-            //this.lbDonGia.Click += new System.EventHandler(this.lbDonGia_Click);
             this.lbDonGia.MouseLeave += new System.EventHandler(this.label2_MouseLeave);
             this.lbDonGia.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label2_MouseMove);
             // 
@@ -71,7 +70,7 @@
             this.btnChiTietSanPham.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnChiTietSanPham.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnChiTietSanPham.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnChiTietSanPham.FillColor = System.Drawing.Color.Tomato;
+            this.btnChiTietSanPham.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
             this.btnChiTietSanPham.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChiTietSanPham.ForeColor = System.Drawing.Color.White;
             this.btnChiTietSanPham.Location = new System.Drawing.Point(26, 206);
@@ -88,7 +87,7 @@
             this.btnThemVaoGioHang.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnThemVaoGioHang.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnThemVaoGioHang.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnThemVaoGioHang.FillColor = System.Drawing.Color.Tomato;
+            this.btnThemVaoGioHang.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
             this.btnThemVaoGioHang.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemVaoGioHang.ForeColor = System.Drawing.Color.White;
             this.btnThemVaoGioHang.Location = new System.Drawing.Point(26, 244);

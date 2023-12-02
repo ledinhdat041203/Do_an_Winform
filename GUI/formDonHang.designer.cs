@@ -35,6 +35,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formDonHang));
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -181,7 +182,7 @@
             this.dtpNgayBatDau.TabIndex = 10;
             this.dtpNgayBatDau.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.dtpNgayBatDau.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
-            this.dtpNgayBatDau.Value = new System.DateTime(2023, 1, 1, 22, 57, 0, 0);
+            this.dtpNgayBatDau.Value = new System.DateTime(2023, 11, 1, 22, 57, 0, 0);
             this.dtpNgayBatDau.ValueChanged += new System.EventHandler(this.dtpNgayBatDau_ValueChanged);
             // 
             // guna2Button4
@@ -337,11 +338,11 @@
             dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
             this.dgvDonBan.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle8;
             dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
             dataGridViewCellStyle9.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.DimGray;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.DimGray;
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvDonBan.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dgvDonBan.ColumnHeadersHeight = 40;
@@ -512,6 +513,7 @@
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "formDonHang";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

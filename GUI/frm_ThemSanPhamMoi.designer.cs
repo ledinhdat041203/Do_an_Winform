@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_ThemSanPhamMoi));
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
@@ -118,7 +119,7 @@
             this.txtBaoHanh.PlaceholderText = "";
             this.txtBaoHanh.SelectedText = "";
             this.txtBaoHanh.Size = new System.Drawing.Size(246, 34);
-            this.txtBaoHanh.TabIndex = 27;
+            this.txtBaoHanh.TabIndex = 7;
             // 
             // lbBaoHanh
             // 
@@ -146,7 +147,7 @@
             this.btnThem.Location = new System.Drawing.Point(236, 432);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(181, 42);
-            this.btnThem.TabIndex = 25;
+            this.btnThem.TabIndex = 8;
             this.btnThem.Text = "Thêm sản phẩm";
             this.btnThem.TextOffset = new System.Drawing.Point(15, 0);
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
@@ -159,7 +160,7 @@
             this.cbLoai.Location = new System.Drawing.Point(153, 99);
             this.cbLoai.Name = "cbLoai";
             this.cbLoai.Size = new System.Drawing.Size(246, 31);
-            this.cbLoai.TabIndex = 24;
+            this.cbLoai.TabIndex = 2;
             // 
             // label2
             // 
@@ -180,7 +181,7 @@
             this.cbNCC.Location = new System.Drawing.Point(153, 212);
             this.cbNCC.Name = "cbNCC";
             this.cbNCC.Size = new System.Drawing.Size(246, 31);
-            this.cbNCC.TabIndex = 21;
+            this.cbNCC.TabIndex = 4;
             // 
             // txtTen
             // 
@@ -200,7 +201,7 @@
             this.txtTen.PlaceholderText = "";
             this.txtTen.SelectedText = "";
             this.txtTen.Size = new System.Drawing.Size(246, 34);
-            this.txtTen.TabIndex = 20;
+            this.txtTen.TabIndex = 1;
             // 
             // txtXuatXu
             // 
@@ -220,7 +221,7 @@
             this.txtXuatXu.PlaceholderText = "";
             this.txtXuatXu.SelectedText = "";
             this.txtXuatXu.Size = new System.Drawing.Size(246, 34);
-            this.txtXuatXu.TabIndex = 19;
+            this.txtXuatXu.TabIndex = 3;
             // 
             // txtGiaNhap
             // 
@@ -240,7 +241,7 @@
             this.txtGiaNhap.PlaceholderText = "";
             this.txtGiaNhap.SelectedText = "";
             this.txtGiaNhap.Size = new System.Drawing.Size(246, 34);
-            this.txtGiaNhap.TabIndex = 16;
+            this.txtGiaNhap.TabIndex = 5;
             // 
             // btnClean
             // 
@@ -257,7 +258,7 @@
             this.btnClean.Location = new System.Drawing.Point(64, 432);
             this.btnClean.Name = "btnClean";
             this.btnClean.Size = new System.Drawing.Size(152, 42);
-            this.btnClean.TabIndex = 4;
+            this.btnClean.TabIndex = 9;
             this.btnClean.Text = "Xóa tất cả";
             this.btnClean.TextOffset = new System.Drawing.Point(15, 0);
             this.btnClean.Click += new System.EventHandler(this.btnClean_Click);
@@ -280,7 +281,7 @@
             this.txtGiaBan.PlaceholderText = "";
             this.txtGiaBan.SelectedText = "";
             this.txtGiaBan.Size = new System.Drawing.Size(246, 34);
-            this.txtGiaBan.TabIndex = 15;
+            this.txtGiaBan.TabIndex = 6;
             // 
             // label4
             // 
@@ -366,6 +367,7 @@
             this.ClientSize = new System.Drawing.Size(841, 497);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_ThemSanPhamMoi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thêm sản phẩm mới";

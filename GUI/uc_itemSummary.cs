@@ -49,67 +49,6 @@ namespace GUI
             }
         }
 
-        
-        private void nudSoLuong_ValueChanged(object sender, EventArgs e)
-        {
-            //if (isHandlingEvent)
-            //{
-            //    return;
-            //}
-            //int soLuong = int.Parse(nudSoLuong.Value.ToString());
-            //if (soLuong > 0)
-            //{
-            //    if (!isSale)
-            //    {
-            //        if (ChiTietDonNhapBLL.Instance.UpdateSoLuongHang(CTDon.MaChiTiet, soLuong))
-            //        {
-            //            CTDon.SoLuong = soLuong;
-            //            lbThanhTien.Text = (soLuong * hang.GiaNhap).ToString("C0", CultureInfo.GetCultureInfo("vi-VN"));
-            //            OnSoLuongDonNhapChanged(EventArgs.Empty);
-            //        }
-            //    }
-            //    else
-            //    {
-            //        try
-            //        {
-            //            if (ChiTietDonBanBLL.Instance.UpdateSoLuongHang(CTDon.MaChiTiet, soLuong))
-            //            {
-            //                lbThanhTien.Text = (soLuong * hang.DonGia).ToString("C0", CultureInfo.GetCultureInfo("vi-VN"));
-            //                CTDon.SoLuong = soLuong;
-            //                OnSoLuongChanged(EventArgs.Empty);
-            //            }
-            //        }
-            //        catch (SqlException ex)
-            //        {
-            //            //nudSoLuong.ValueChanged -= nudSoLuong_ValueChanged;
-            //            //nudSoLuong.Value -= 1;
-            //            //nudSoLuong.ValueChanged+= nudSoLuong_ValueChanged;
-            //            foreach (SqlError error in ex.Errors)
-            //            {
-            //                if (error.Message.Contains("KHONG DU HANG"))
-            //                {
-            //                    MessageBox.Show("Mặt hàng này hiện đã hết", "Thông báo");
-            //                    break;
-
-            //                }
-            //                else if (error.Message.Contains("don da thanh toan"))
-            //                {
-            //                    MessageBox.Show("Đơn hàng này đã được thanh toán !!", "Thông báo");
-            //                    break;
-            //                }
-            //                else
-            //                {
-            //                    MessageBox.Show(error.Message);
-            //                }
-
-            //            }
-
-            //        }
-            //    }
-            //}
-                
-        }
-
         //tạo sự kiện khi số lượng hàng thay đổi
         public event EventHandler SoLuongChanged;
         protected virtual void OnSoLuongChanged(EventArgs e)
@@ -229,14 +168,10 @@ namespace GUI
                             MessageBox.Show("Đơn hàng này đã được thanh toán !!", "Thông báo");
                             break;
                         }
-                        else if (error.Message.Contains("KHONG DU HANG"))
+                        else if (error.Message.Contains("kHONG DU HANG"))
                         {
                             MessageBox.Show("Mặt hàng này hiện đã hết", "Thông báo");
                             break;
-                        }
-                        else
-                        {
-                            MessageBox.Show(error.Message);
                         }
                     }
                 }
@@ -251,12 +186,15 @@ namespace GUI
                 if (isSale && ChiTietDonBanBLL.Instance.XoaChiTiet(CTDon.MaChiTiet))
                 {
                     MessageBox.Show("Đã xóa mặt hàng này ra khỏi đơn", "Thông báo");
+                    OnSoLuongChanged(EventArgs.Empty);
                     this.Visible = false;
+
                 }
                 else
                     if (!isSale && ChiTietDonNhapBLL.Instance.XoaChiTiet(CTDon.MaChiTiet))
                     {
                     MessageBox.Show("Đã xóa mặt hàng này ra khỏi đơn", "Thông báo");
+                    OnSoLuongDonNhapChanged(EventArgs.Empty);
                     this.Visible = false;
                     }
             }
@@ -269,8 +207,6 @@ namespace GUI
                         MessageBox.Show("Đơn hàng này đã được thanh toán !!", "Thông báo");
                         break;
                     }
-                    else
-                    { MessageBox.Show(error.Message); }
                 }
             }
         }

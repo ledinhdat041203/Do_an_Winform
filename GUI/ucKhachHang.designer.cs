@@ -121,10 +121,10 @@
             // lbTenKH
             // 
             this.lbTenKH.AutoSize = true;
-            this.lbTenKH.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTenKH.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTenKH.Location = new System.Drawing.Point(63, 10);
             this.lbTenKH.Name = "lbTenKH";
-            this.lbTenKH.Size = new System.Drawing.Size(91, 23);
+            this.lbTenKH.Size = new System.Drawing.Size(107, 23);
             this.lbTenKH.TabIndex = 1;
             this.lbTenKH.Text = "Lionel Messi";
             this.lbTenKH.Click += new System.EventHandler(this.lbTenKH_Click);

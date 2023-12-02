@@ -124,6 +124,9 @@
   <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8-i-25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-i-25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="istockphoto-1155433058-1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-1155433058-1024x1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -132,6 +135,12 @@
   </data>
   <data name="arrow-up1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arrow-up1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-print-322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-print-322.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bronze1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bronze4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Silver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,29 +160,23 @@
   <data name="png-clipart-desk-office-supplies-design-angle-furniture" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\png-clipart-desk-office-supplies-design-angle-furniture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cancel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cancel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="360_F_496632203_ebd1fmChidWFuaYcoIKgRAAQqo00ReUC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\360_F_496632203_ebd1fmChidWFuaYcoIKgRAAQqo00ReUC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user_4073231" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_4073231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icons8-in-transit-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-in-transit-501.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-furniture-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-furniture-641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-line-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-line-961.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-order-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-order-641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="eye_3926043" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eye_3926043.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -186,6 +189,9 @@
   </data>
   <data name="icons8-exit-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-exit-961.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tiktok_5968812" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tiktok_5968812.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-insert-table-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-insert-table-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,11 +250,11 @@
   <data name="icons8-customer-64 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-customer-64 (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tiktok_5968812" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tiktok_5968812.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-order-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-order-641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-furniture-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-furniture-641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-search-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-search-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-address-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-address-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,8 +262,8 @@
   <data name="icons8-online-store-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-online-store-1001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="writing (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\writing (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-add-64gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-add-64gray1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="huy-phan-HqLcI0Dyl4o-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\huy-phan-HqLcI0Dyl4o-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,6 +316,9 @@
   <data name="icons8-store-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-store-501.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="add (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-analytics-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-analytics-481.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -322,11 +331,11 @@
   <data name="dsc08073a-1_orig" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dsc08073a-1_orig.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-print-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-print-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Lovepik_com-401044560-european-neoclassical-bedroom-furniture1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lovepik_com-401044560-european-neoclassical-bedroom-furniture1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -349,11 +358,11 @@
   <data name="icons8-add-641" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-add-641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-add-64gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-add-64gray1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cancel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-i-25" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-i-25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-print-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-print-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="zyro-image (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zyro-image (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -415,8 +424,8 @@
   <data name="icons8-print-321" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-print-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-print-322" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-print-322.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="writing (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\writing (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-service-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-service-501.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -430,7 +439,7 @@
   <data name="icons8-x-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-x-641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lovepik_com-401044560-european-neoclassical-bedroom-furniture1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lovepik_com-401044560-european-neoclassical-bedroom-furniture1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Silver1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Silver1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

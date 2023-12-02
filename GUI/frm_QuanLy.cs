@@ -135,5 +135,10 @@ namespace GUI
                 this.Close();
             }
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

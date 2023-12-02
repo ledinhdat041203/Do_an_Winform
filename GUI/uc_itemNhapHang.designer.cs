@@ -73,7 +73,7 @@
             this.btnThemVaoDon.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnThemVaoDon.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnThemVaoDon.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnThemVaoDon.FillColor = System.Drawing.Color.Salmon;
+            this.btnThemVaoDon.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
             this.btnThemVaoDon.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemVaoDon.ForeColor = System.Drawing.Color.White;
             this.btnThemVaoDon.Location = new System.Drawing.Point(149, 15);
@@ -87,7 +87,7 @@
             // 
             this.lbGia.AutoSize = true;
             this.lbGia.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbGia.ForeColor = System.Drawing.Color.OrangeRed;
+            this.lbGia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
             this.lbGia.Location = new System.Drawing.Point(22, 38);
             this.lbGia.Name = "lbGia";
             this.lbGia.Size = new System.Drawing.Size(79, 20);

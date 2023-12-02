@@ -64,6 +64,11 @@ namespace BLL
         }
         public bool ThemHang(Hang hang)
         {
+            if (hang.TenHang == "")
+            {
+                MessageBox.Show("Không được để trống tên sản phẩm !!", "Thông báo");
+                return false;
+            }
             return HangDAL.Instance.ThemHang(hang);
         }
         public bool check(string s)
@@ -93,13 +98,18 @@ namespace BLL
             return hang;
         }
 
-        public bool XoaHang(string maHang)
+        public bool XoaHang(int maHang)
         {
             return HangDAL.Instance.XoaHang(maHang);
         }
 
         public bool SuaHang(Hang hang)
         {
+            if (hang.TenHang == "")
+            {
+                MessageBox.Show("Không được để trống tên sản phẩm !!", "Thông báo");
+                return false;
+            }
             return HangDAL.Instance.SuaHang(hang);
         }
         private String findNCCByID(int maNCC)

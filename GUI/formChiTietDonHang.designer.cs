@@ -33,6 +33,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formChiTietDonHang));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnEdit = new Guna.UI2.WinForms.Guna2Button();
             this.lbVAT = new System.Windows.Forms.Label();
@@ -45,6 +46,12 @@
             this.label11 = new System.Windows.Forms.Label();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.dgvCTDon = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.MaCT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MaDon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MaHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -63,13 +70,7 @@
             this.btnCloseChiTietDon = new Guna.UI2.WinForms.Guna2Button();
             this.lbMaDon1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.MaCT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MaDon = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MaHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnIn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCTDon)).BeginInit();
@@ -111,7 +112,7 @@
             this.guna2Panel1.Controls.Add(this.btnCloseChiTietDon);
             this.guna2Panel1.Controls.Add(this.lbMaDon1);
             this.guna2Panel1.Controls.Add(this.label1);
-            this.guna2Panel1.Controls.Add(this.guna2Button1);
+            this.guna2Panel1.Controls.Add(this.btnIn);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
@@ -299,6 +300,63 @@
             this.dgvCTDon.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvCTDon.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.dgvCTDon.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datagridviewChiTietDonBan_CellContentClick);
+            // 
+            // MaCT
+            // 
+            this.MaCT.DataPropertyName = "MaChiTiet";
+            this.MaCT.HeaderText = "MaCT";
+            this.MaCT.MinimumWidth = 6;
+            this.MaCT.Name = "MaCT";
+            this.MaCT.ReadOnly = true;
+            this.MaCT.Visible = false;
+            // 
+            // MaDon
+            // 
+            this.MaDon.DataPropertyName = "MaDon";
+            this.MaDon.HeaderText = "MaDon";
+            this.MaDon.MinimumWidth = 6;
+            this.MaDon.Name = "MaDon";
+            this.MaDon.ReadOnly = true;
+            this.MaDon.Visible = false;
+            // 
+            // MaHang
+            // 
+            this.MaHang.DataPropertyName = "MaHang";
+            this.MaHang.HeaderText = "MaHang";
+            this.MaHang.MinimumWidth = 6;
+            this.MaHang.Name = "MaHang";
+            this.MaHang.ReadOnly = true;
+            this.MaHang.Visible = false;
+            // 
+            // TenHang
+            // 
+            this.TenHang.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.TenHang.DataPropertyName = "TenHang";
+            this.TenHang.HeaderText = "Mặt hàng";
+            this.TenHang.MinimumWidth = 6;
+            this.TenHang.Name = "TenHang";
+            this.TenHang.ReadOnly = true;
+            this.TenHang.Width = 23;
+            // 
+            // SoLuong
+            // 
+            this.SoLuong.DataPropertyName = "SoLuong";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.SoLuong.DefaultCellStyle = dataGridViewCellStyle3;
+            this.SoLuong.HeaderText = "SoLuong";
+            this.SoLuong.MinimumWidth = 6;
+            this.SoLuong.Name = "SoLuong";
+            this.SoLuong.ReadOnly = true;
+            // 
+            // ThanhTien
+            // 
+            this.ThanhTien.DataPropertyName = "ThanhTien";
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.ThanhTien.DefaultCellStyle = dataGridViewCellStyle4;
+            this.ThanhTien.HeaderText = "Thành tiền";
+            this.ThanhTien.MinimumWidth = 6;
+            this.ThanhTien.Name = "ThanhTien";
+            this.ThanhTien.ReadOnly = true;
             // 
             // guna2Panel4
             // 
@@ -497,82 +555,26 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "ĐƠN HÀNG";
             // 
-            // guna2Button1
+            // btnIn
             // 
-            this.guna2Button1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.White;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.BorderColor = System.Drawing.SystemColors.Window;
-            this.guna2Button1.HoverState.FillColor = System.Drawing.SystemColors.Window;
-            this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
-            this.guna2Button1.Image = global::GUI.Properties.Resources.icons8_print_64;
-            this.guna2Button1.Location = new System.Drawing.Point(11, 3);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.PressedColor = System.Drawing.SystemColors.Window;
-            this.guna2Button1.Size = new System.Drawing.Size(45, 45);
-            this.guna2Button1.TabIndex = 0;
-            // 
-            // MaCT
-            // 
-            this.MaCT.DataPropertyName = "MaChiTiet";
-            this.MaCT.HeaderText = "MaCT";
-            this.MaCT.MinimumWidth = 6;
-            this.MaCT.Name = "MaCT";
-            this.MaCT.ReadOnly = true;
-            this.MaCT.Visible = false;
-            // 
-            // MaDon
-            // 
-            this.MaDon.DataPropertyName = "MaDon";
-            this.MaDon.HeaderText = "MaDon";
-            this.MaDon.MinimumWidth = 6;
-            this.MaDon.Name = "MaDon";
-            this.MaDon.ReadOnly = true;
-            this.MaDon.Visible = false;
-            // 
-            // MaHang
-            // 
-            this.MaHang.DataPropertyName = "MaHang";
-            this.MaHang.HeaderText = "MaHang";
-            this.MaHang.MinimumWidth = 6;
-            this.MaHang.Name = "MaHang";
-            this.MaHang.ReadOnly = true;
-            this.MaHang.Visible = false;
-            // 
-            // TenHang
-            // 
-            this.TenHang.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.TenHang.DataPropertyName = "TenHang";
-            this.TenHang.HeaderText = "Mặt hàng";
-            this.TenHang.MinimumWidth = 6;
-            this.TenHang.Name = "TenHang";
-            this.TenHang.ReadOnly = true;
-            this.TenHang.Width = 23;
-            // 
-            // SoLuong
-            // 
-            this.SoLuong.DataPropertyName = "SoLuong";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.SoLuong.DefaultCellStyle = dataGridViewCellStyle3;
-            this.SoLuong.HeaderText = "SoLuong";
-            this.SoLuong.MinimumWidth = 6;
-            this.SoLuong.Name = "SoLuong";
-            this.SoLuong.ReadOnly = true;
-            // 
-            // ThanhTien
-            // 
-            this.ThanhTien.DataPropertyName = "ThanhTien";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.ThanhTien.DefaultCellStyle = dataGridViewCellStyle4;
-            this.ThanhTien.HeaderText = "Thành tiền";
-            this.ThanhTien.MinimumWidth = 6;
-            this.ThanhTien.Name = "ThanhTien";
-            this.ThanhTien.ReadOnly = true;
+            this.btnIn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnIn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnIn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnIn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnIn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnIn.FillColor = System.Drawing.Color.White;
+            this.btnIn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnIn.ForeColor = System.Drawing.Color.White;
+            this.btnIn.HoverState.BorderColor = System.Drawing.SystemColors.Window;
+            this.btnIn.HoverState.FillColor = System.Drawing.SystemColors.Window;
+            this.btnIn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
+            this.btnIn.Image = global::GUI.Properties.Resources.icons8_print_64;
+            this.btnIn.Location = new System.Drawing.Point(11, 3);
+            this.btnIn.Name = "btnIn";
+            this.btnIn.PressedColor = System.Drawing.SystemColors.Window;
+            this.btnIn.Size = new System.Drawing.Size(45, 45);
+            this.btnIn.TabIndex = 0;
+            this.btnIn.Click += new System.EventHandler(this.btnIn_Click);
             // 
             // formChiTietDonHang
             // 
@@ -582,6 +584,7 @@
             this.ClientSize = new System.Drawing.Size(467, 625);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "formChiTietDonHang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChiTietDonHang";
@@ -600,7 +603,7 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnIn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lbMaDon1;
         private Guna.UI2.WinForms.Guna2Button btnCloseChiTietDon;

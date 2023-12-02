@@ -15,9 +15,17 @@ namespace GUI
 {
     public partial class frm_ThemSanPhamMoi : Form
     {
+        private Hang sp = null;
+
         public frm_ThemSanPhamMoi()
         {
             InitializeComponent();
+        }
+
+        public frm_ThemSanPhamMoi(Hang hang)
+        {
+            InitializeComponent();
+            this.sp = hang;
         }
 
         private void btnClean_Click(object sender, EventArgs e)
@@ -44,6 +52,7 @@ namespace GUI
         private void frm_ThemSanPhamMoi_Load(object sender, EventArgs e)
         {
             pbAnh.Image = Properties.Resources.box__1_;
+            txtTen.Focus();
 
             cbLoai.DisplayMember = "TenLoai";
             cbLoai.ValueMember = "MaLoai";
@@ -56,6 +65,25 @@ namespace GUI
             dataTable = NhaCungCapBLL.Instance.findAllTenNCC();
             cbNCC.DataSource = dataTable.DefaultView;
             cbNCC.SelectedIndex = -1;
+
+            if (sp != null)
+            {
+                btnThem.Text = "Lưu";
+                txtTen.Text = sp.TenHang;
+                txtBaoHanh.Text = sp.BaoHanh.ToString();
+                txtGiaBan.Text = sp.DonGia.ToString();
+                txtGiaNhap.Text = sp.GiaNhap.ToString();
+                txtXuatXu.Text = sp.XuatXu;
+                cbLoai.Text = sp.TenLoai;
+                cbNCC.Text = sp.TenNCC;
+
+                if (sp.Anh != null)
+                    pbAnh.Image = Utils.Instance.converByteToImage(sp.Anh);
+            }
+            else
+            {
+                btnThem.Text = "Thêm sản phẩm";
+            }
         }
 
         private void btnThem_Click(object sender, EventArgs e)
@@ -98,19 +126,38 @@ namespace GUI
                 txtBaoHanh.Focus();
             }
 
-            hang.Anh = Utils.Instance.ImageLocationToByteArray(pbAnh.ImageLocation);
-
-            if (HangBLL.Instance.ThemHang(hang))
+            if (pbAnh.ImageLocation != null)
+                hang.Anh = Utils.Instance.ImageLocationToByteArray(pbAnh.ImageLocation);
+            else
+                hang.Anh = this.sp.Anh;
+            if (sp == null)
             {
-                MessageBox.Show("Mặt hàng được thêm thành công", "Thông báo");
-                onThemSanPham(EventArgs.Empty);
-                this.Close();
+
+                if (HangBLL.Instance.ThemHang(hang))
+                {
+                    MessageBox.Show("Mặt hàng được thêm thành công", "Thông báo");
+                    onThemSanPham(EventArgs.Empty);
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Thêm hàng thất bại !!!", "Thông báo");
+                }
             }
             else
             {
-                MessageBox.Show("Thêm hàng thất bại !!!", "Thông báo");
-            }
+                hang.MaHang = sp.MaHang;
 
+                if (HangBLL.Instance.SuaHang(hang))
+                {
+                    MessageBox.Show("Mặt hàng được cập nhật thành công", "Thông báo");
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("cập nhật hàng thất bại !!!", "Thông báo");
+                }
+            }
         }
 
         public event EventHandler ThemSanPham;

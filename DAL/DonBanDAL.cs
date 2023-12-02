@@ -145,5 +145,16 @@ namespace DAL
             int result = DataBase.Instance.ThucThi("proc_ThanhToanDonBan", param);
             return result > 0;
         }
+
+        public DataTable findDetailDonBan(int maDon)
+        {
+            SqlParameter[] param =
+            {
+                new SqlParameter("@MaDon", maDon)
+            };
+
+            return DataBase.Instance.LayDuLieu("findDetailDonBan", param) ;
+        }
+
     }
 }

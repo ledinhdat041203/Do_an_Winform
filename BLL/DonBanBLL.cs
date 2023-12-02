@@ -134,5 +134,10 @@ namespace BLL
         {
             return DonBanDAL.Instance.ThanhToanDon((int)maDon);
         }
+
+        public DataTable findDetailDonBan(int maDon)
+        {
+            return DonBanDAL.Instance.findDetailDonBan((int)maDon);
+        }
     }
 }

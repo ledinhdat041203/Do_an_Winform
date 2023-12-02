@@ -41,26 +41,29 @@
             this.btnSua = new Guna.UI2.WinForms.Guna2Button();
             this.btnInfo = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.pnAll = new Guna.UI2.WinForms.Guna2ShadowPanel();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAnh)).BeginInit();
             this.panel1.SuspendLayout();
+            this.pnAll.SuspendLayout();
             this.SuspendLayout();
             // 
             // lbTen
             // 
             this.lbTen.AutoSize = true;
-            this.lbTen.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTen.BackColor = System.Drawing.SystemColors.Window;
+            this.lbTen.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTen.Location = new System.Drawing.Point(8, 66);
             this.lbTen.Name = "lbTen";
-            this.lbTen.Size = new System.Drawing.Size(38, 25);
+            this.lbTen.Size = new System.Drawing.Size(36, 23);
             this.lbTen.TabIndex = 13;
             this.lbTen.Text = "Tên";
             // 
             // lbDiaChi
             // 
             this.lbDiaChi.AutoSize = true;
+            this.lbDiaChi.BackColor = System.Drawing.SystemColors.Window;
             this.lbDiaChi.Font = new System.Drawing.Font("Consolas", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDiaChi.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lbDiaChi.Location = new System.Drawing.Point(12, 87);
@@ -72,6 +75,7 @@
             // lbChucVu
             // 
             this.lbChucVu.AutoSize = true;
+            this.lbChucVu.BackColor = System.Drawing.SystemColors.Window;
             this.lbChucVu.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbChucVu.Location = new System.Drawing.Point(47, 112);
             this.lbChucVu.Name = "lbChucVu";
@@ -82,6 +86,7 @@
             // lbSDT
             // 
             this.lbSDT.AutoSize = true;
+            this.lbSDT.BackColor = System.Drawing.SystemColors.Window;
             this.lbSDT.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbSDT.Location = new System.Drawing.Point(47, 144);
             this.lbSDT.Name = "lbSDT";
@@ -92,6 +97,7 @@
             // lbMaNV
             // 
             this.lbMaNV.AutoSize = true;
+            this.lbMaNV.BackColor = System.Drawing.SystemColors.Window;
             this.lbMaNV.Font = new System.Drawing.Font("Consolas", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbMaNV.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lbMaNV.Location = new System.Drawing.Point(9, 7);
@@ -112,7 +118,7 @@
             this.btnXoa.ForeColor = System.Drawing.Color.White;
             this.btnXoa.Image = global::GUI.Properties.Resources.delete;
             this.btnXoa.ImageSize = new System.Drawing.Size(15, 15);
-            this.btnXoa.Location = new System.Drawing.Point(100, 0);
+            this.btnXoa.Location = new System.Drawing.Point(84, 0);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(25, 25);
             this.btnXoa.TabIndex = 20;
@@ -120,6 +126,7 @@
             // 
             // guna2PictureBox2
             // 
+            this.guna2PictureBox2.BackColor = System.Drawing.SystemColors.Window;
             this.guna2PictureBox2.Image = global::GUI.Properties.Resources.icons8_phone_64;
             this.guna2PictureBox2.ImageRotate = 0F;
             this.guna2PictureBox2.Location = new System.Drawing.Point(13, 139);
@@ -131,6 +138,7 @@
             // 
             // guna2PictureBox1
             // 
+            this.guna2PictureBox1.BackColor = System.Drawing.SystemColors.Window;
             this.guna2PictureBox1.Image = global::GUI.Properties.Resources.group__1_;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(12, 109);
@@ -164,7 +172,7 @@
             this.btnSua.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnSua.ForeColor = System.Drawing.Color.White;
             this.btnSua.Image = global::GUI.Properties.Resources.icons8_update_48;
-            this.btnSua.Location = new System.Drawing.Point(125, 0);
+            this.btnSua.Location = new System.Drawing.Point(109, 0);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(25, 25);
             this.btnSua.TabIndex = 11;
@@ -181,7 +189,7 @@
             this.btnInfo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnInfo.ForeColor = System.Drawing.Color.White;
             this.btnInfo.Image = ((System.Drawing.Image)(resources.GetObject("btnInfo.Image")));
-            this.btnInfo.Location = new System.Drawing.Point(150, 0);
+            this.btnInfo.Location = new System.Drawing.Point(134, 0);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(25, 25);
             this.btnInfo.TabIndex = 10;
@@ -189,34 +197,36 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.SystemColors.Window;
             this.panel1.Controls.Add(this.btnXoa);
             this.panel1.Controls.Add(this.lbMaNV);
             this.panel1.Controls.Add(this.btnSua);
             this.panel1.Controls.Add(this.btnInfo);
-            this.panel1.Location = new System.Drawing.Point(0, 179);
+            this.panel1.Location = new System.Drawing.Point(10, 167);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(175, 25);
+            this.panel1.Size = new System.Drawing.Size(159, 25);
             this.panel1.TabIndex = 21;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // guna2ShadowPanel1
+            // pnAll
             // 
-            this.guna2ShadowPanel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.guna2ShadowPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2ShadowPanel1.FillColor = System.Drawing.SystemColors.Window;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
-            this.guna2ShadowPanel1.Radius = 5;
-            this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Gray;
-            this.guna2ShadowPanel1.ShadowStyle = Guna.UI2.WinForms.Guna2ShadowPanel.ShadowMode.Dropped;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(177, 206);
-            this.guna2ShadowPanel1.TabIndex = 22;
+            this.pnAll.BackColor = System.Drawing.Color.Transparent;
+            this.pnAll.Controls.Add(this.panel1);
+            this.pnAll.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnAll.FillColor = System.Drawing.Color.White;
+            this.pnAll.Location = new System.Drawing.Point(0, 0);
+            this.pnAll.Name = "pnAll";
+            this.pnAll.Radius = 6;
+            this.pnAll.ShadowColor = System.Drawing.Color.Gray;
+            this.pnAll.ShadowStyle = Guna.UI2.WinForms.Guna2ShadowPanel.ShadowMode.Dropped;
+            this.pnAll.Size = new System.Drawing.Size(177, 206);
+            this.pnAll.TabIndex = 22;
             // 
             // uc_NhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.panel1);
+            this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.lbSDT);
             this.Controls.Add(this.lbChucVu);
             this.Controls.Add(this.guna2PictureBox2);
@@ -224,7 +234,7 @@
             this.Controls.Add(this.lbDiaChi);
             this.Controls.Add(this.lbTen);
             this.Controls.Add(this.pbAnh);
-            this.Controls.Add(this.guna2ShadowPanel1);
+            this.Controls.Add(this.pnAll);
             this.Name = "uc_NhanVien";
             this.Size = new System.Drawing.Size(177, 206);
             this.Load += new System.EventHandler(this.uc_NhanVien_Load);
@@ -233,6 +243,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbAnh)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.pnAll.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -251,6 +262,6 @@
         private System.Windows.Forms.Label lbMaNV;
         private Guna.UI2.WinForms.Guna2Button btnXoa;
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
+        private Guna.UI2.WinForms.Guna2ShadowPanel pnAll;
     }
 }

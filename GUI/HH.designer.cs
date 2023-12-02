@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.AnimatorNS.Animation animation4 = new Guna.UI2.AnimatorNS.Animation();
+            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HH));
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.lbSLVP = new System.Windows.Forms.Label();
@@ -416,22 +416,22 @@
             // 
             this.guna2Transition1.AnimationType = Guna.UI2.AnimatorNS.AnimationType.ScaleAndRotate;
             this.guna2Transition1.Cursor = null;
-            animation4.AnimateOnlyDifferences = true;
-            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
-            animation4.LeafCoeff = 0F;
-            animation4.MaxTime = 1F;
-            animation4.MinTime = 0F;
-            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
-            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
-            animation4.MosaicSize = 0;
-            animation4.Padding = new System.Windows.Forms.Padding(30);
-            animation4.RotateCoeff = 0.5F;
-            animation4.RotateLimit = 0.2F;
-            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
-            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
-            animation4.TimeCoeff = 0F;
-            animation4.TransparencyCoeff = 0F;
-            this.guna2Transition1.DefaultAnimation = animation4;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(30);
+            animation1.RotateCoeff = 0.5F;
+            animation1.RotateLimit = 0.2F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.guna2Transition1.DefaultAnimation = animation1;
             this.guna2Transition1.Interval = 20;
             // 
             // label9
@@ -444,7 +444,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(281, 31);
             this.label9.TabIndex = 4;
-            this.label9.Text = "DANH SÁCH HÀNG HÓA";
+            this.label9.Text = "DANH SÁCH LOẠI HÀNG";
             // 
             // guna_pic_main
             // 
@@ -471,6 +471,7 @@
             this.Controls.Add(this.guna_pic_main);
             this.guna2Transition1.SetDecoration(this, Guna.UI2.AnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "HH";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "HH";

@@ -28,37 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_ChiTietSanPham));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.cbAnh = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.label11 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbGiaBan = new System.Windows.Forms.Label();
             this.lbNCC = new System.Windows.Forms.Label();
             this.lbXuatXu = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.lbTen = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.cbAnh = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cbAnh)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
-            this.guna2Panel4.SuspendLayout();
-            this.guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbAnh)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -102,6 +103,18 @@
             this.label3.Size = new System.Drawing.Size(138, 23);
             this.label3.TabIndex = 2;
             this.label3.Text = "Loại sản phẩm / ";
+            // 
+            // cbAnh
+            // 
+            this.cbAnh.BorderRadius = 6;
+            this.cbAnh.Image = global::GUI.Properties.Resources._360_F_496632203_ebd1fmChidWFuaYcoIKgRAAQqo00ReUC;
+            this.cbAnh.ImageRotate = 0F;
+            this.cbAnh.Location = new System.Drawing.Point(31, 88);
+            this.cbAnh.Name = "cbAnh";
+            this.cbAnh.Size = new System.Drawing.Size(430, 359);
+            this.cbAnh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cbAnh.TabIndex = 2;
+            this.cbAnh.TabStop = false;
             // 
             // guna2Panel2
             // 
@@ -154,6 +167,17 @@
             this.label11.Text = "60 ngày\r\nđổi trả hàng \r\n";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::GUI.Properties.Resources.icons8_exchange_40__1_;
+            this.pictureBox3.Location = new System.Drawing.Point(40, 15);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(46, 45);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
             // guna2Panel4
             // 
             this.guna2Panel4.Controls.Add(this.label4);
@@ -174,6 +198,17 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Hotline\r\n0123.456.789\r\n";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::GUI.Properties.Resources.icons8_phone_64;
+            this.pictureBox2.Location = new System.Drawing.Point(40, 15);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(46, 45);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // guna2Panel3
             // 
@@ -196,6 +231,17 @@
             this.label2.Text = "Giao hàng tận nơi\r\nnhanh chóng";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::GUI.Properties.Resources.icons8_in_transit_50;
+            this.pictureBox1.Location = new System.Drawing.Point(40, 15);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(46, 45);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // lbGiaBan
             // 
             this.lbGiaBan.AutoSize = true;
@@ -215,6 +261,7 @@
             this.lbNCC.Size = new System.Drawing.Size(80, 23);
             this.lbNCC.TabIndex = 5;
             this.lbNCC.Text = "HCMUTE";
+            this.lbNCC.Click += new System.EventHandler(this.lbNCC_Click);
             // 
             // lbXuatXu
             // 
@@ -259,51 +306,6 @@
             this.lbTen.TabIndex = 0;
             this.lbTen.Text = "Ghế sofa màu nâu";
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::GUI.Properties.Resources.icons8_exchange_40__1_;
-            this.pictureBox3.Location = new System.Drawing.Point(40, 15);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(46, 45);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::GUI.Properties.Resources.icons8_phone_64;
-            this.pictureBox2.Location = new System.Drawing.Point(40, 15);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(46, 45);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::GUI.Properties.Resources.icons8_in_transit_50;
-            this.pictureBox1.Location = new System.Drawing.Point(40, 15);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(46, 45);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // cbAnh
-            // 
-            this.cbAnh.BorderRadius = 6;
-            this.cbAnh.Image = global::GUI.Properties.Resources._360_F_496632203_ebd1fmChidWFuaYcoIKgRAAQqo00ReUC;
-            this.cbAnh.ImageRotate = 0F;
-            this.cbAnh.Location = new System.Drawing.Point(31, 88);
-            this.cbAnh.Name = "cbAnh";
-            this.cbAnh.Size = new System.Drawing.Size(430, 359);
-            this.cbAnh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.cbAnh.TabIndex = 2;
-            this.cbAnh.TabStop = false;
-            // 
             // frm_ChiTietSanPham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -311,23 +313,25 @@
             this.ClientSize = new System.Drawing.Size(917, 474);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_ChiTietSanPham";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chi tiết sản phẩm";
             this.Load += new System.EventHandler(this.frm_ChiTietSanPham_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cbAnh)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             this.guna2Panel5.ResumeLayout(false);
             this.guna2Panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.guna2Panel4.ResumeLayout(false);
             this.guna2Panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbAnh)).EndInit();
             this.ResumeLayout(false);
 
         }
