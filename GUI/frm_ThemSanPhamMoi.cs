@@ -52,6 +52,7 @@ namespace GUI
         private void frm_ThemSanPhamMoi_Load(object sender, EventArgs e)
         {
             pbAnh.Image = Properties.Resources.box__1_;
+            txtTen.Focus();
 
             cbLoai.DisplayMember = "TenLoai";
             cbLoai.ValueMember = "MaLoai";

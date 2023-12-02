@@ -9,3 +9,36 @@ D:\SPKT\HK1_n3\WinForm\QuanLiCuaHangNoiThat\BLL\bin\Debug\DTO.pdb
 D:\SPKT\HK1_n3\WinForm\QuanLiCuaHangNoiThat\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\SPKT\HK1_n3\WinForm\QuanLiCuaHangNoiThat\BLL\obj\Debug\BLL.dll
 D:\SPKT\HK1_n3\WinForm\QuanLiCuaHangNoiThat\BLL\obj\Debug\BLL.pdb
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\BLL\bin\Debug\BLL.dll
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\BLL\bin\Debug\BLL.pdb
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\BLL\bin\Debug\DAL.dll
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\BLL\bin\Debug\DTO.dll
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\BLL\bin\Debug\DAL.pdb
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\BLL\bin\Debug\DTO.pdb
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\BLL\obj\Debug\BLL.csproj.CopyComplete
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\BLL\obj\Debug\BLL.dll
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\BLL\obj\Debug\BLL.pdb
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\BLL\bin\Debug\BLL.dll
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\BLL\bin\Debug\BLL.pdb
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\BLL\bin\Debug\DAL.dll
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\BLL\bin\Debug\DTO.dll
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\BLL\bin\Debug\DAL.pdb
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\BLL\bin\Debug\DTO.pdb
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\BLL\obj\Debug\BLL.dll
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\BLL\obj\Debug\BLL.pdb
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\BLL\bin\Debug\BLL.dll
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\BLL\bin\Debug\BLL.pdb
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\BLL\bin\Debug\DAL.dll
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\BLL\bin\Debug\DTO.dll
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\BLL\bin\Debug\DAL.pdb
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\BLL\bin\Debug\DTO.pdb
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\BLL\obj\Debug\BLL.dll
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\BLL\obj\Debug\BLL.pdb

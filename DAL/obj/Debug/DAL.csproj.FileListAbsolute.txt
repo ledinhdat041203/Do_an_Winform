@@ -7,3 +7,30 @@ D:\SPKT\HK1_n3\WinForm\QuanLiCuaHangNoiThat\DAL\obj\Debug\DAL.pdb
 D:\SPKT\HK1_n3\WinForm\QuanLiCuaHangNoiThat\DAL\bin\Debug\DTO.dll
 D:\SPKT\HK1_n3\WinForm\QuanLiCuaHangNoiThat\DAL\bin\Debug\DTO.pdb
 D:\SPKT\HK1_n3\WinForm\QuanLiCuaHangNoiThat\DAL\obj\Debug\DAL.csproj.CopyComplete
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\bin\Debug\DAL.dll
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\bin\Debug\DAL.pdb
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\bin\Debug\DTO.dll
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\bin\Debug\DTO.pdb
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\obj\Debug\DAL.csproj.CopyComplete
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\obj\Debug\DAL.dll
+Z:\N3_HK1\WinForm\DoAnCuoiKy\Do_an_Winform\DAL\obj\Debug\DAL.pdb
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\DAL\bin\Debug\DAL.dll
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\DAL\bin\Debug\DAL.pdb
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\DAL\bin\Debug\DTO.dll
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\DAL\bin\Debug\DTO.pdb
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\DAL\obj\Debug\DAL.dll
+C:\Users\ledin\OneDrive\Máy tính\Nhom04\Do_an_Winform\DAL\obj\Debug\DAL.pdb
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\DAL\bin\Debug\DAL.dll
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\DAL\bin\Debug\DAL.pdb
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\DAL\bin\Debug\DTO.dll
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\DAL\bin\Debug\DTO.pdb
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\DAL\obj\Debug\DAL.dll
+C:\Users\ledin\OneDrive\Máy tính\Nhom4\Do_an_Winform\DAL\obj\Debug\DAL.pdb

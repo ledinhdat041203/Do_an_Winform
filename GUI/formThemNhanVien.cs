@@ -144,8 +144,6 @@ namespace GUI
                         MessageBox.Show("Tạo tài khoản thất bại do tên đăng nhập đã tồn tại", "Lỗi");
                         txtTenDangNhap.Focus();
                     }
-                    else
-                        MessageBox.Show($"Error Number: {error.Number}, Message: {error.Message}", "error");
                 }
             }
         }

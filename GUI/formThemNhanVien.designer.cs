@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formThemNhanVien));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
@@ -255,7 +256,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(558, 138);
+            this.label7.Location = new System.Drawing.Point(558, 87);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(81, 25);
             this.label7.TabIndex = 20;
@@ -265,7 +266,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(558, 87);
+            this.label6.Location = new System.Drawing.Point(558, 137);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(88, 25);
             this.label6.TabIndex = 19;
@@ -507,6 +508,7 @@
             this.ClientSize = new System.Drawing.Size(882, 625);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "formThemNhanVien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ThemKhachHang";

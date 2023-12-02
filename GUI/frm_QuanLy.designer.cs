@@ -29,14 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
+            Guna.UI2.AnimatorNS.Animation animation3 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_QuanLy));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2GradientButton10 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2GradientButton9 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnLoaiHang = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton8 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnDonHang = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnThongKe = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnNhapHang = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -64,7 +63,6 @@
             this.guna2Panel1.Controls.Add(this.guna2Separator1);
             this.guna2Panel1.Controls.Add(this.guna2GradientButton9);
             this.guna2Panel1.Controls.Add(this.btnLoaiHang);
-            this.guna2Panel1.Controls.Add(this.guna2GradientButton8);
             this.guna2Panel1.Controls.Add(this.btnDonHang);
             this.guna2Panel1.Controls.Add(this.btnThongKe);
             this.guna2Panel1.Controls.Add(this.btnNhapHang);
@@ -133,7 +131,7 @@
             this.guna2GradientButton9.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2GradientButton9.ImageOffset = new System.Drawing.Point(5, 0);
             this.guna2GradientButton9.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2GradientButton9.Location = new System.Drawing.Point(0, 566);
+            this.guna2GradientButton9.Location = new System.Drawing.Point(0, 691);
             this.guna2GradientButton9.Name = "guna2GradientButton9";
             this.guna2GradientButton9.Size = new System.Drawing.Size(242, 45);
             this.guna2GradientButton9.TabIndex = 19;
@@ -160,7 +158,7 @@
             this.btnLoaiHang.Image = global::GUI.Properties.Resources.icons8_classify_50;
             this.btnLoaiHang.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnLoaiHang.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnLoaiHang.Location = new System.Drawing.Point(0, 469);
+            this.btnLoaiHang.Location = new System.Drawing.Point(0, 418);
             this.btnLoaiHang.Name = "btnLoaiHang";
             this.btnLoaiHang.Size = new System.Drawing.Size(242, 45);
             this.btnLoaiHang.TabIndex = 18;
@@ -168,32 +166,6 @@
             this.btnLoaiHang.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnLoaiHang.TextOffset = new System.Drawing.Point(20, 0);
             this.btnLoaiHang.Click += new System.EventHandler(this.btnLoaiHang_Click);
-            // 
-            // guna2GradientButton8
-            // 
-            this.guna2GradientButton8.BorderColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2Transition1.SetDecoration(this.guna2GradientButton8, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientButton8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton8.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton8.FillColor = System.Drawing.Color.Empty;
-            this.guna2GradientButton8.FillColor2 = System.Drawing.Color.Empty;
-            this.guna2GradientButton8.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton8.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton8.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2GradientButton8.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(165)))));
-            this.guna2GradientButton8.Image = global::GUI.Properties.Resources.icons8_service_50;
-            this.guna2GradientButton8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2GradientButton8.ImageOffset = new System.Drawing.Point(5, 0);
-            this.guna2GradientButton8.Location = new System.Drawing.Point(0, 418);
-            this.guna2GradientButton8.Name = "guna2GradientButton8";
-            this.guna2GradientButton8.Size = new System.Drawing.Size(242, 45);
-            this.guna2GradientButton8.TabIndex = 17;
-            this.guna2GradientButton8.Text = "Dịch vụ";
-            this.guna2GradientButton8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2GradientButton8.TextOffset = new System.Drawing.Point(20, 0);
             // 
             // btnDonHang
             // 
@@ -371,22 +343,22 @@
             // 
             this.guna2Transition1.AnimationType = Guna.UI2.AnimatorNS.AnimationType.HorizSlide;
             this.guna2Transition1.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.guna2Transition1.DefaultAnimation = animation1;
+            animation3.AnimateOnlyDifferences = true;
+            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
+            animation3.LeafCoeff = 0F;
+            animation3.MaxTime = 1F;
+            animation3.MinTime = 0F;
+            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
+            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
+            animation3.MosaicSize = 0;
+            animation3.Padding = new System.Windows.Forms.Padding(0);
+            animation3.RotateCoeff = 0F;
+            animation3.RotateLimit = 0F;
+            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
+            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
+            animation3.TimeCoeff = 0F;
+            animation3.TransparencyCoeff = 0F;
+            this.guna2Transition1.DefaultAnimation = animation3;
             // 
             // label1
             // 
@@ -455,6 +427,7 @@
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(48, 33);
             this.guna2Button2.TabIndex = 2;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button1
             // 
@@ -489,6 +462,7 @@
             this.Controls.Add(this.guna2Panel1);
             this.guna2Transition1.SetDecoration(this, Guna.UI2.AnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_QuanLy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_QuanLy";
@@ -509,7 +483,6 @@
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton9;
         private Guna.UI2.WinForms.Guna2GradientButton btnLoaiHang;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton8;
         private Guna.UI2.WinForms.Guna2GradientButton btnDonHang;
         private Guna.UI2.WinForms.Guna2GradientButton btnThongKe;
         private Guna.UI2.WinForms.Guna2GradientButton btnNhapHang;

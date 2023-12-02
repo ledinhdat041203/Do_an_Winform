@@ -471,6 +471,7 @@
             this.Controls.Add(this.guna_pic_main);
             this.guna2Transition1.SetDecoration(this, Guna.UI2.AnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "HH";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "HH";

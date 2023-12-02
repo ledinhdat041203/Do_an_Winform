@@ -60,7 +60,17 @@ namespace BLL
                 MessageBox.Show("Không được để trống tên nhân viên");
                 return false;
             }
-           
+            if (!Utils.Instance.checkPhone(nv.SDT))
+            {
+                MessageBox.Show("Số điện thoại không hợp lệ", "Thông báo");
+                return false;
+            }
+            if (!Utils.Instance.checkName(nv.TenNV))
+            {
+                MessageBox.Show("Tên khách hàng không hợp lệ", "Thông báo");
+                return false;
+            }
+
 
             return NhanVienDAL.Instance.ThemNhanVien(nv);
         }
@@ -70,6 +80,16 @@ namespace BLL
             if (nv.TenNV == "")
             {
                 MessageBox.Show("Không được để trống tên nhân viên");
+                return false;
+            }
+            if (!Utils.Instance.checkPhone(nv.SDT))
+            {
+                MessageBox.Show("Số điện thoại không hợp lệ", "Thông báo");
+                return false;
+            }
+            if (!Utils.Instance.checkName(nv.TenNV))
+            {
+                MessageBox.Show("Tên khách hàng không hợp lệ", "Thông báo");
                 return false;
             }
             try

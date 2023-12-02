@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_ChiTietSanPham));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.label5 = new System.Windows.Forms.Label();
@@ -312,6 +313,7 @@
             this.ClientSize = new System.Drawing.Size(917, 474);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_ChiTietSanPham";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chi tiết sản phẩm";

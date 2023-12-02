@@ -694,5 +694,11 @@
   <ItemGroup>
     <None Include="Resources\icons8-search-50.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bronze4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Silver1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

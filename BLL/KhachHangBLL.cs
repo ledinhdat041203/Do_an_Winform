@@ -6,6 +6,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace BLL
 {
@@ -50,11 +51,31 @@ namespace BLL
 
         public bool Insert(KhachHang kh)
         {
+            if (!Utils.Instance.checkPhone(kh.SDT))
+            {
+                MessageBox.Show("Số điện thoại không hợp lệ", "Thông báo");
+                return false;
+            }
+            if (!Utils.Instance.checkName(kh.TenKH))
+            {
+                MessageBox.Show("Tên khách hàng không hợp lệ", "Thông báo");
+                return false;
+            }
             return KhachHangDAL.Instance.Insert(kh);
         }
 
         public bool Update(KhachHang kh)
         {
+            if (!Utils.Instance.checkPhone(kh.SDT))
+            {
+                MessageBox.Show("Số điện thoại không hợp lệ", "Thông báo");
+                return false;
+            }
+            if (!Utils.Instance.checkName(kh.TenKH))
+            {
+                MessageBox.Show("Tên khách hàng không hợp lệ", "Thông báo");
+                return false;
+            }
             return KhachHangDAL.Instance.Update(kh);
         }
 

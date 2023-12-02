@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_NhapHang));
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.cbLoai = new System.Windows.Forms.ComboBox();
             this.txtTenHang = new Guna.UI2.WinForms.Guna2TextBox();
@@ -180,7 +181,7 @@
             this.lbTongGT.AutoSize = true;
             this.lbTongGT.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold);
             this.lbTongGT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
-            this.lbTongGT.Location = new System.Drawing.Point(222, 19);
+            this.lbTongGT.Location = new System.Drawing.Point(191, 15);
             this.lbTongGT.Name = "lbTongGT";
             this.lbTongGT.Size = new System.Drawing.Size(98, 23);
             this.lbTongGT.TabIndex = 8;
@@ -315,6 +316,7 @@
             this.Controls.Add(this.pnDonNhap);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_NhapHang";
             this.Text = "frm_NhapHang";
             this.Load += new System.EventHandler(this.frm_NhapHang_Load);

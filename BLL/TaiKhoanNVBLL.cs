@@ -2,6 +2,7 @@
 using DTO;
 using System;
 using System.Data;
+using System.Windows.Forms;
 
 namespace BLL
 {
@@ -32,6 +33,11 @@ namespace BLL
 
         public bool Insert(TaiKhoanNV taiKhoanNV)
         {
+            if (taiKhoanNV.taikhoan == "" || taiKhoanNV.matkhau == "")
+            {
+                MessageBox.Show("không được để trống tài khoản và mật khẩu !!!", "Thông báo");
+                return false;
+            }
             try
             {
                 return TaiKhoanNVDAL.Instance.Insert(taiKhoanNV);
@@ -57,6 +63,11 @@ namespace BLL
 
         public bool Update(TaiKhoanNV taiKhoanNV)
         {
+            if (taiKhoanNV.taikhoan == "" || taiKhoanNV.matkhau == "")
+            {
+                MessageBox.Show("không được để trống tài khoản và mật khẩu !!!", "Thông báo");
+                return false;
+            }
             try
             {
                 return TaiKhoanNVDAL.Instance.Update(taiKhoanNV);

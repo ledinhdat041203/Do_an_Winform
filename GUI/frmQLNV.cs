@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Web.UI.WebControls;
 using System.Windows.Forms;
 
@@ -24,6 +25,13 @@ namespace GUI
 
         private void frmQLNV_Load(object sender, EventArgs e)
         {
+            //lấy thông tin nhân viên tạo đơn từ formQuanLi
+            frm_QuanLy frmQL = Application.OpenForms.OfType<frm_QuanLy>().FirstOrDefault();
+            NhanVien nhanVienDangNhap = frmQL.nhanVien;
+            if (nhanVienDangNhap.ChucVu != "Quản lí")
+            {
+                btnThemNV.Visible = false;
+            }    
             LayDuLieu();
            
         }
@@ -107,5 +115,7 @@ namespace GUI
                 flpNhanVien.Controls.Add(ucNhanVien);
             }
         }
+
+
     }
 }

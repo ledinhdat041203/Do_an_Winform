@@ -43,10 +43,10 @@
             // lbTenHang
             // 
             this.lbTenHang.AutoSize = true;
-            this.lbTenHang.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTenHang.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTenHang.Location = new System.Drawing.Point(14, 17);
             this.lbTenHang.Name = "lbTenHang";
-            this.lbTenHang.Size = new System.Drawing.Size(94, 23);
+            this.lbTenHang.Size = new System.Drawing.Size(95, 23);
             this.lbTenHang.TabIndex = 1;
             this.lbTenHang.Text = "Ghế sofa ...";
             // 
@@ -65,7 +65,7 @@
             // 
             this.lbThanhTien.AutoSize = true;
             this.lbThanhTien.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbThanhTien.ForeColor = System.Drawing.Color.OrangeRed;
+            this.lbThanhTien.ForeColor = System.Drawing.Color.Black;
             this.lbThanhTien.Location = new System.Drawing.Point(174, 52);
             this.lbThanhTien.Name = "lbThanhTien";
             this.lbThanhTien.Size = new System.Drawing.Size(81, 23);
@@ -97,7 +97,7 @@
             // 
             // txtSoLuong
             // 
-            this.txtSoLuong.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.txtSoLuong.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(136)))), ((int)(((byte)(226)))));
             this.txtSoLuong.BorderRadius = 10;
             this.txtSoLuong.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSoLuong.DefaultText = "1";
@@ -107,8 +107,8 @@
             this.txtSoLuong.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtSoLuong.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSoLuong.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtSoLuong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.txtSoLuong.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSoLuong.ForeColor = System.Drawing.Color.Black;
+            this.txtSoLuong.HoverState.BorderColor = System.Drawing.Color.Black;
             this.txtSoLuong.Location = new System.Drawing.Point(178, 7);
             this.txtSoLuong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSoLuong.Name = "txtSoLuong";
@@ -140,8 +140,8 @@
             this.btnSub.Image = global::GUI.Properties.Resources.downward_arrow;
             this.btnSub.ImageOffset = new System.Drawing.Point(0, 0);
             this.btnSub.ImageRotate = 0F;
-            this.btnSub.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnSub.Location = new System.Drawing.Point(241, 23);
+            this.btnSub.ImageSize = new System.Drawing.Size(15, 15);
+            this.btnSub.Location = new System.Drawing.Point(240, 23);
             this.btnSub.Margin = new System.Windows.Forms.Padding(1);
             this.btnSub.Name = "btnSub";
             this.btnSub.PressedState.ImageSize = new System.Drawing.Size(30, 30);
@@ -158,7 +158,7 @@
             this.btnAdd.Image = global::GUI.Properties.Resources.downward_arrow;
             this.btnAdd.ImageOffset = new System.Drawing.Point(0, 0);
             this.btnAdd.ImageRotate = 180F;
-            this.btnAdd.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnAdd.ImageSize = new System.Drawing.Size(15, 15);
             this.btnAdd.Location = new System.Drawing.Point(239, 0);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.PressedState.ImageRotate = 180F;
